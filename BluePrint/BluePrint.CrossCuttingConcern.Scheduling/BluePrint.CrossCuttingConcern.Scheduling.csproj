@@ -1,0 +1,12 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\BluePrint.CrossCuttingConcern.Utilities\BluePrint.CrossCuttingConcern.Utilities.csproj" />
+    <ProjectReference Include="..\BluePrint.DependencyInjection.Container\BluePrint.DependencyInjection.Container.csproj" />
+  </ItemGroup>
+
+</Project>

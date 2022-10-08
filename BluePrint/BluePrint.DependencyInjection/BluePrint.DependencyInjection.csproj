@@ -1,0 +1,22 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.0</TargetFramework>
+    <Authors>Serhat Selim</Authors>
+    <Company>Saas</Company>
+    <Product>BluePrint</Product>
+    <PackageIconUrl>https://raw.githubusercontent.com/SerhatSelim/blueprintstandard/master/bplogo.png</PackageIconUrl>
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.AspNetCore.Http" Version="2.2.2" />
+    <PackageReference Include="Microsoft.Extensions.DependencyInjection" Version="3.0.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\BluePrint.CrossCuttingConcern.Caching\BluePrint.CrossCuttingConcern.Caching.csproj" />
+    <ProjectReference Include="..\BluePrint.DependencyInjection.Container\BluePrint.DependencyInjection.Container.csproj" />
+  </ItemGroup>
+
+</Project>

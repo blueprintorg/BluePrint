@@ -1,0 +1,17 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.0</TargetFramework>
+  </PropertyGroup>
+
+    <ItemGroup>
+    <PackageReference Include="Autofac.Extras.DynamicProxy" Version="4.5.0" />
+  </ItemGroup>
+
+    <ItemGroup>
+      <ProjectReference Include="..\BluePrint.CrossCuttingConcern.ExceptionHandling\BluePrint.CrossCuttingConcern.ExceptionHandling.csproj" />
+      <ProjectReference Include="..\BluePrint.CrossCuttingConcern.Logging\BluePrint.CrossCuttingConcern.Logging.csproj" />
+      <ProjectReference Include="..\BluePrint.CrossCuttingConcern.Utilities\BluePrint.CrossCuttingConcern.Utilities.csproj" />
+    </ItemGroup>
+  
+</Project>

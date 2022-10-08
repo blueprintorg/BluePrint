@@ -1,0 +1,25 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Autofac.Extensions.DependencyInjection" Version="4.4.0" />
+    <PackageReference Include="AutoMapper" Version="9.0.0" />
+    <PackageReference Include="Microsoft.Extensions.Logging.Debug" Version="3.0.0" />
+    <PackageReference Include="Microsoft.VisualStudio.Web.CodeGeneration.Design" Version="3.0.0" />
+    <PackageReference Include="Swashbuckle.AspNetCore" Version="5.0.0" />
+    <PackageReference Include="Swashbuckle.AspNetCore.Swagger" Version="5.0.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\BluePrint.Business.Unit.Foundations\BluePrint.Business.Unit.Foundations.csproj" />
+    <ProjectReference Include="..\BluePrint.Common\BluePrint.Common.csproj" />
+    <ProjectReference Include="..\BluePrint.CrossCuttingConcern.ExceptionHandling\BluePrint.CrossCuttingConcern.ExceptionHandling.csproj" />
+    <ProjectReference Include="..\BluePrint.DataAccess.Persistance\BluePrint.DataAccess.Persistance.csproj" />
+    <ProjectReference Include="..\BluePrint.DependencyInjection\BluePrint.DependencyInjection.csproj" />
+    <ProjectReference Include="..\BluePrint.Presentation\BluePrint.Presentation.csproj" />
+  </ItemGroup>
+
+</Project>

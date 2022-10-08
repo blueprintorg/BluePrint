@@ -1,0 +1,30 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.0</TargetFramework>
+  </PropertyGroup>
+
+
+  <ItemGroup>
+    <PackageReference Include="Autofac" Version="4.9.4" />
+    <PackageReference Include="Autofac.Extras.DynamicProxy" Version="4.5.0" />
+    <PackageReference Include="AutoMapper" Version="9.0.0" />
+    <PackageReference Include="FluentValidation" Version="8.5.0" />
+  </ItemGroup>
+
+
+  <ItemGroup>
+    <ProjectReference Include="..\BluePrint.Business\BluePrint.Business.csproj" />
+    <ProjectReference Include="..\BluePrint.Common\BluePrint.Common.csproj" />
+    <ProjectReference Include="..\BluePrint.CrossCuttingConcern.Caching\BluePrint.CrossCuttingConcern.Caching.csproj" />
+    <ProjectReference Include="..\BluePrint.CrossCuttingConcern.Logging\BluePrint.CrossCuttingConcern.Logging.csproj" />
+    <ProjectReference Include="..\BluePrint.CrossCuttingConcern.Scheduling\BluePrint.CrossCuttingConcern.Scheduling.csproj" />
+    <ProjectReference Include="..\BluePrint.CrossCuttingConcern.Transaction\BluePrint.CrossCuttingConcern.Transaction.csproj" />
+    <ProjectReference Include="..\BluePrint.CrossCuttingConcern.Unit.Foundations\BluePrint.CrossCuttingConcern.Unit.Foundations.csproj" />
+    <ProjectReference Include="..\BluePrint.CrossCuttingConcern.Validation\BluePrint.CrossCuttingConcern.Validation.csproj" />
+    <ProjectReference Include="..\BluePrint.CrossCuttingConcern\BluePrint.CrossCuttingConcern.csproj" />
+    <ProjectReference Include="..\BluePrint.DataAccess.Unit.Foundations\BluePrint.DataAccess.Unit.Foundations.csproj" />
+    <ProjectReference Include="..\BluePrint.Model.Unit.Foundations\BluePrint.Model.Unit.Foundations.csproj" />
+  </ItemGroup>
+
+</Project>

@@ -1,0 +1,20 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.0</TargetFramework>
+    <Authors>Serhat Selim</Authors>
+    <Company>Saas</Company>
+    <Product>BluePrint</Product>
+    <PackageIconUrl>https://raw.githubusercontent.com/SerhatSelim/blueprintstandard/master/bplogo.png</PackageIconUrl>
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.EntityFrameworkCore" Version="3.0.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\BluePrint.Model.Entities\BluePrint.Model.Entities.csproj" />
+  </ItemGroup>
+
+</Project>

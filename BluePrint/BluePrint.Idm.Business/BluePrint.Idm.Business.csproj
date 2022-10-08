@@ -1,0 +1,23 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Autofac" Version="4.9.4" />
+    <PackageReference Include="Autofac.Extras.DynamicProxy" Version="4.5.0" />
+    <PackageReference Include="AutoMapper" Version="9.0.0" />
+    <PackageReference Include="Microsoft.AspNetCore.Identity" Version="2.2.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\BluePrint.Business\BluePrint.Business.csproj" />
+    <ProjectReference Include="..\BluePrint.Common\BluePrint.Common.csproj" />
+    <ProjectReference Include="..\BluePrint.CrossCuttingConcern\BluePrint.CrossCuttingConcern.csproj" />
+    <ProjectReference Include="..\BluePrint.DependencyInjection.Container\BluePrint.DependencyInjection.Container.csproj" />
+    <ProjectReference Include="..\BluePrint.Idm.DataAccess.Persistence\BluePrint.Idm.DataAccess.Persistence.csproj" />
+    <ProjectReference Include="..\BluePrint.Idm.Model\BluePrint.Idm.Model.csproj" />
+  </ItemGroup>
+
+</Project>

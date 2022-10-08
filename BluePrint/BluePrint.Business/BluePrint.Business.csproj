@@ -1,0 +1,37 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.0</TargetFramework>
+    <Authors>Serhat Selim</Authors>
+    <Company>Saas</Company>
+    <Product>BluePrint</Product>
+    <PackageIconUrl>https://raw.githubusercontent.com/SerhatSelim/blueprintstandard/master/bplogo.png</PackageIconUrl>
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Remove="Concrete\**" />
+    <Compile Remove="Interface\**" />
+    <EmbeddedResource Remove="Concrete\**" />
+    <EmbeddedResource Remove="Interface\**" />
+    <None Remove="Concrete\**" />
+    <None Remove="Interface\**" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Autofac" Version="4.9.4" />
+    <PackageReference Include="AutoMapper" Version="9.0.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="Behaviors\" />
+    <Folder Include="Concretes\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\BluePrint.DataAccess.Infrastructure\BluePrint.DataAccess.Infrastructure.csproj" />
+    <ProjectReference Include="..\BluePrint.Model.Dtos\BluePrint.Model.Dtos.csproj" />
+    <ProjectReference Include="..\BluePrint.Model.Entities\BluePrint.Model.Entities.csproj" />
+  </ItemGroup>
+
+</Project>

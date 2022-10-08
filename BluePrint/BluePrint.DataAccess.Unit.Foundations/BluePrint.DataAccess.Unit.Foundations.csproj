@@ -1,0 +1,13 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\BluePrint.DataAccess.Persistance\BluePrint.DataAccess.Persistance.csproj" />
+    <ProjectReference Include="..\BluePrint.DataAccess\BluePrint.DataAccess.csproj" />
+    <ProjectReference Include="..\BluePrint.Model.Unit.Foundations\BluePrint.Model.Unit.Foundations.csproj" />
+  </ItemGroup>
+
+</Project>

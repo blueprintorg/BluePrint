@@ -1,0 +1,12 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\BluePrint.Model.Dtos\BluePrint.Model.Dtos.csproj" />
+    <ProjectReference Include="..\BluePrint.Model.Entities\BluePrint.Model.Entities.csproj" />
+  </ItemGroup>
+
+</Project>
